@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara ou coroa</title>
+</head>
+<body>
+<script>
+    let jogada_computador = Math.random()
+    let palpite = "cara"
+
+        if(jogada_computador < 0.5)
+        {
+            var res = "cara"
+        }
+        else{
+            var res = "coroa"
+        }
+
+        if(res === palpite)
+        {
+            window.alert("Você ganhou")
+        }
+        else{
+            window.alert("Você perdeu")
+        }
+</script>
+</body>
+</html>

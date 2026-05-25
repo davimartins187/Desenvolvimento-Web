@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada !!!!</title>
+</head>
+<body>
+    <script>
+
+        window.alert("A seguir você vai digitar um numero para se ter a tabuada dele")
+        var numero = Number(window.prompt("Digite o numero: "))
+        var multiplicador = 1
+
+        do
+        {
+            var res = numero * multiplicador
+            document.write(`${numero} X ${multiplicador} = ${res}<br>`)
+            multiplicador++
+        }while(multiplicador < 11)
+
+    </script>
+</body>
+</html>

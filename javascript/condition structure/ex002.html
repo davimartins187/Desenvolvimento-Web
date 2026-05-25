@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque de diversões</title>
+</head>
+<body>
+    <h1>Abra o inspecionar usando as teclas ctrl shift C, e vá para  a parte de console</h1>
+    <script>
+        let idade = window.prompt("Digite a sua idade")
+        const feriado = false
+
+        if((idade <= 6 || idade >= 65) && feriado == false)
+        {
+            console.log(`Você tem direito ao desconto, pois vc tem ${idade} anos e não é feriado`)
+        }
+        else if(feriado == true)
+        {
+            console.log(`Você não tem direito ao desconto, pois hoje é feriado`)
+        }
+        else{
+            console.log(`Você não tem direito ao desconto, pois vc não tem a idade correta`)
+        }
+    </script>
+</body>
+</html>

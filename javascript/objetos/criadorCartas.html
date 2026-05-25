@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Criando cartas</title>
+</head>
+<body>
+
+<script>
+
+class Mensagem {
+
+    verificarHorario() {
+
+        let horas = new Date().getHours()
+
+        if (horas >= 18) {
+            return "Boa noite"
+        }
+
+        else if (horas <= 12) {
+            return "Bom dia"
+        }
+
+        else {
+            return "Boa tarde"
+        }
+    }
+
+    constructor(nome, idade, mensagem) {
+        this.nome = nome
+        this.idade = idade
+        this.mensagem = mensagem
+    }
+}
+
+class Carta extends Mensagem {
+
+    constructor(nome, idade, mensagem) {
+
+        super(nome, idade, mensagem)
+
+        this.horas = this.verificarHorario()
+    }
+
+    verificarDados() {
+
+        // verifica se o nome está vazio
+        if (!this.nome) {
+            return "Digite um nome!"
+        }
+
+        // verifica se possui número
+        if (/\d/.test(this.nome)) {
+            return "Digite um nome válido!"
+        }
+
+        return "ok"
+    }
+
+    carta() {
+
+        return `
+${this.horas} ${this.nome},
+
+Você tem ${this.idade} anos.
+
+Mensagem:
+${this.mensagem}
+        `
+    }
+}
+
+const cartas = []
+
+alert("Vamos escrever cartas!")
+
+let continuar = true
+
+while (continuar) {
+
+    let nome = prompt("Digite o seu nome:")
+    let idade = prompt("Digite a sua idade:")
+    let mensagem = prompt("Digite a sua mensagem:")
+
+    const carta = new Carta(nome, idade, mensagem)
+
+    let validacao = carta.verificarDados()
+
+    // valida antes de adicionar
+    if (validacao !== "ok") {
+
+        alert(validacao)
+        continuar = false
+
+    } else {
+
+        cartas.push(carta)
+
+        console.log(cartas)
+
+        document.body.innerHTML += `
+        <pre>${carta.carta()}</pre>
+        <hr>
+        `
+    }
+
+    continuar = confirm("Deseja escrever outra carta?")
+}
+
+console.log("Todas as cartas:")
+console.log(cartas)
+
+</script>
+
+</body>
+</html>

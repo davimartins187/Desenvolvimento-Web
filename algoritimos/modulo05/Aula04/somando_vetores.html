@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando variaveis em vetores</title>
+</head>
+<body>
+    <script>
+
+        var numeros = new Array(4)
+        var numero = 10
+
+        for (var contador = 0; contador < numeros.length; contador++)
+        {
+            numeros[contador] = +prompt(`Digite o valor ${contador}`)
+            numero =  numero + numeros[contador]
+            document.write(`O valor que está na posiçao ${contador} é: ${numero}<br>`)
+        }
+
+
+    </script>
+</body>
+</html>

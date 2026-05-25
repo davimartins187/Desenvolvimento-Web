@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basquete</title>
+</head>
+<body>
+
+    <button onclick="comparar_precos()">comparar preços</button>
+    <script>
+        let produtos = {
+            pao_de_queijo: {
+                preco: 2
+            },
+            pao_com_mortadela:{
+                preco: 5
+            }
+        }
+
+        function comparar_precos ()
+        {
+            if(produtos.pao_de_queijo.preco < produtos.pao_com_mortadela.preco)
+            {
+                console.log("Pão  de queijo é mais barato")
+            }
+            else{
+                console.log("Pão com mortadela é mais barato")
+            }
+        }
+
+    </script>
+</body>
+</html>

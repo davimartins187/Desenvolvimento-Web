@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular a idade</title>
+</head>
+<body>
+    <script>
+
+        var nome = window.prompt("Digite o seu nome: ")
+        var ano_nasc = Number(window.prompt("Digite o ano em que vc nasceu: "))
+        var ano_atual = new Date().getFullYear()
+
+        var res = ano_atual - ano_nasc
+
+        document.write(`${nome}, você tem ${res} anos, já que nasceu em ${ano_nasc}<br>`)
+
+        if(res < 18)
+            {
+                document.write(`<h1>${nome}, você é menor de idade !!!</h1>`)
+            }
+
+    </script>
+</body>
+</html>

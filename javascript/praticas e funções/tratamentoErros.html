@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de erros</title>
+</head>
+<body>
+    <script>
+        function contarQuantidadeLetras ( produto ){
+            try {
+                console.log (produto.nome.length)
+                console.log ("teste")
+            }
+            catch ( erro ){
+                //tratarErro ( erro )
+                consol.log("Erro ao processar, código do erro: 164")
+            }
+        }
+
+        const produto = {
+            nom: "Notebook",
+            preco: 1200
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media aluno</title>
+</head>
+<body>
+    <script>
+
+        var nome_aluno = window.prompt("Digite o nome do aluno: ")
+        var nota1 = Number(window.prompt("Digite a nota da primeira prova: "))
+        var nota2 = Number(window.prompt("Digite a nota da segunda prova: "))
+        var nota3 = Number(window.prompt("Digite a nota da terceira prova: "))
+
+        var media = (nota1 + nota2 + nota3) / 3
+
+        document.write (`O aluno ${nome_aluno} tem a media de: ${Math.round(media)}`)
+        
+    </script>
+</body>
+</html>

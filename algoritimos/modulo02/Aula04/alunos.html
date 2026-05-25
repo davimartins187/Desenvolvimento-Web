@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Analisador de Atleta</title>
+</head>
+<body>
+
+<script>
+    alert("Analisador de Atleta!");
+
+    var nome = prompt("Digite o nome:");
+    var idade = Number(prompt("Digite a idade:"));
+    var categoria;
+
+    switch (idade) {
+
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10:
+            categoria = "Infantil";
+            break;
+
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+            categoria = "Juvenil";
+            break;
+
+        case 16:
+        case 17:
+        case 18:
+        case 19:
+        case 20:
+            categoria = "Júnior";
+            break;
+
+        case 21:
+        case 22:
+        case 23:
+        case 24:
+        case 25:
+            categoria = "Profissional";
+            break;
+
+        default:
+            categoria = "Sem categoria";
+    }
+
+    document.write(
+        `<h2>Resultado</h2>
+         <p>Nome: <strong>${nome}</strong></p>
+         <p>Idade: <strong>${idade}</strong></p>
+         <p>Categoria: <strong>${categoria}</strong></p>`
+    );
+</script>
+
+</body>
+</html>

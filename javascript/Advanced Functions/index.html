@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções avançadas</title>
+</head>
+<body>
+
+    <button onclick="cronometro()">Começar cronômetro</button>
+    <button onclick="resetar()">Resetar cronômetro</button>
+
+    <p>Segundos: <span id="seg">0</span></p>
+    <p>Minutos: <span id="min">0</span></p>
+    <p>Horas: <span id="hora">0</span></p>
+
+    <script>
+
+        const segEl  = document.querySelector("#seg")
+        const minEl  = document.querySelector("#min")
+        const horaEl = document.querySelector("#hora")
+
+        let contador = {
+            seg:  0,
+            min:  0,
+            hora: 0
+        }
+
+        let timeoutId = null
+
+        const cronometro = () => {
+
+            contador.seg += 1
+
+            if (contador.seg === 60) {
+                contador.seg = 0
+                contador.min += 1
+            }
+
+            if (contador.min === 60) {
+                contador.min  = 0
+                contador.hora += 1
+            }
+
+            segEl.innerHTML  = contador.seg
+            minEl.innerHTML  = contador.min
+            horaEl.innerHTML = contador.hora
+
+            timeoutId = setTimeout(cronometro, 1000)
+        }
+
+        const resetar = () => {
+
+            clearTimeout(timeoutId)
+
+            contador.seg  = 0
+            contador.min  = 0
+            contador.hora = 0
+
+            segEl.innerHTML  = 0
+            minEl.innerHTML  = 0
+            horaEl.innerHTML = 0
+        }
+
+    </script>
+</body>
+</html>

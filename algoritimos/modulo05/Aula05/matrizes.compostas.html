@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Criando matrizes</title>
+</head>
+<body>
+    <script>
+
+        var matriz = []
+        var quantidade_col = Number(prompt("Digite a quantidade de colunas de sua matriz: "))
+        var quantidade_row = Number(prompt("Digite a quantidade de linhas de sua matriz: "))
+
+        // Criando a matriz
+        for (var contador_row = 0; contador_row < quantidade_row; contador_row++) {
+
+            matriz[contador_row] = [] // cria a linha
+
+            for (var contador_col = 0; contador_col < quantidade_col; contador_col++) {
+                matriz[contador_row][contador_col] = prompt(
+                    `Digite o valor da coluna ${contador_col} da linha ${contador_row}`
+                )
+            }
+        }
+
+        // Mostrando a matriz
+        document.write("Matriz criada:<br><br>")
+
+        for (var contador_row = 0; contador_row < quantidade_row; contador_row++) {
+            for (var contador_col = 0; contador_col < quantidade_col; contador_col++) {
+                document.write(matriz[contador_row][contador_col] + " ")
+            }
+            document.write("<br>")
+        }
+
+    </script>
+</body>
+</html>

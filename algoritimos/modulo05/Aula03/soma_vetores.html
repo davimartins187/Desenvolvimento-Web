@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores de um vetor</title>
+</head>
+<body>
+    <script>
+
+        var quantidade = window.prompt("Digite quantos numeros vc quer somar: ")
+
+        var numeros = []
+        var soma = 0
+
+        for (var contador = 0; contador < quantidade; contador++ )
+        {   
+            numeros[contador] = parseFloat(prompt(`Digite o  ${contador + 1} da soma`))
+
+            soma += numeros[contador]
+        }
+
+        alert("A soma dos numeros é: " + soma)
+    </script>
+</body>
+</html>

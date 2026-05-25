@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando numeros</title>
+</head>
+<body>
+    <script>
+
+        var n1 = undefined
+        var n2 = undefined
+        var soma = 1 
+        var operacao = 1
+
+    while(quantidade < 1 || isNaN(quantidade))
+    {
+
+        var quantidade = Number(window.prompt("Digite a quantidade de operações: "))
+
+            if (quantidade < 1 || isNaN(quantidade))
+            {
+
+                window.alert("Valor invalido, por favor digite outro numero")
+        }    
+    }   
+
+
+        while(quantidade >= soma)
+    {
+        if(quantidade >= operacao)
+    {
+        window.alert(`digite os numeros da operação ${operacao}`)
+    }
+        n1 = Number(window.prompt("Digite o primeiro numero: "))
+        n2 = Number(window.prompt("Digite o segundo numero"))
+        var res = n1 + n2
+        document.write(`A soma entre ${n1} e ${n2} é ${res}<br>`)
+        soma++
+        operacao++
+    }
+
+    </script>
+</body>
+</html>

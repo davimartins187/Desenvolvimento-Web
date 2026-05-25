@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Operações Matemáticas</title>
+</head>
+<body>
+
+<script>
+    var n1 = Number(prompt("Digite o primeiro número:"))
+    var n2 = Number(prompt("Digite o segundo número:"))
+
+    function somar(a, b) {
+        return a + b
+    }
+
+    function subtrair(a, b) {
+        return a - b
+    }
+
+    function multiplicar(a, b) {
+        return a * b
+    }
+
+    function dividir(a, b) {
+        return a / b
+    }
+
+    // 🔹 salvando TODOS os retornos
+    var resSoma = somar(n1, n2)
+    var resSubtracao = subtrair(n1, n2)
+    var resMultiplicacao = multiplicar(n1, n2)
+    var resDivisao = dividir(n1, n2)
+
+    document.write(`Soma: ${resSoma}<br>`)
+    document.write(`Subtração: ${resSubtracao}<br>`)
+    document.write(`Multiplicação: ${resMultiplicacao}<br>`)
+    document.write(`Divisão: ${resDivisao}<br>`)
+</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções construtoras</title>
+</head>
+<body>
+    <script>
+
+        const Hotel = function(){
+
+            this.nome = "Hotel do Jamilton"
+            this.quantidadeSuites = 30
+            let suitesOcupadas = 25
+
+
+            this.reservar = function(){
+
+                if (suitesOcupadas < this.quantidadeSuites){
+                this.suitesOcupadas++
+                console.log(`ocupadas: ${this.suitesOcupadas}`)
+                }
+                else{
+                    console.log("Estamos lotados")
+                }
+            }
+        }
+
+        const hotel = new Hotel()
+        hotel.reservar()
+
+        
+    </script>
+</body>
+</html>

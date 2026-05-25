@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pedra Papel Tesoura</title>
+  </head>
+  <body>
+    <p>Pedra Papel Tesoura</p>
+    <button onclick="
+      const numeroAleatorio = Math.random();
+
+      let movimentoComputador = '';
+
+      if (numeroAleatorio >= 0 && numeroAleatorio < 1 / 3) {
+        movimentoComputador = 'pedra';
+      } else if (numeroAleatorio >= 1 / 3 && numeroAleatorio < 2 / 3) {
+        movimentoComputador = 'papel';
+      } else if (numeroAleatorio >= 2 / 3 && numeroAleatorio < 1) {
+        movimentoComputador = 'tesoura';
+      }
+
+      let resultado = '';
+
+      if (movimentoComputador === 'pedra') {
+        resultado = 'Empate.';
+      } else if (movimentoComputador === 'papel') {
+        resultado = 'Você perdeu.';
+      } else if (movimentoComputador === 'tesoura') {
+        resultado = 'Você ganhou.';
+      }
+
+      alert(`Você escolheu pedra. Computador escolheu ${movimentoComputador}. ${resultado}`);
+    ">Pedra</button>
+
+    <button onclick="
+      const numeroAleatorio = Math.random();
+
+      let movimentoComputador = '';
+
+      if (numeroAleatorio >= 0 && numeroAleatorio < 1 / 3) {
+        movimentoComputador = 'pedra';
+      } else if (numeroAleatorio >= 1 / 3 && numeroAleatorio < 2 / 3) {
+        movimentoComputador = 'papel';
+      } else if (numeroAleatorio >= 2 / 3 && numeroAleatorio < 1) {
+        movimentoComputador = 'tesoura';
+      }
+
+      let resultado = '';
+
+      if (movimentoComputador === 'pedra') {
+        resultado = 'Você ganhou.';
+      } else if (movimentoComputador === 'papel') {
+        resultado = 'Empate.';
+      } else if (movimentoComputador === 'tesoura') {
+        resultado = 'Você perdeu.';
+      }
+
+      alert(`Você escolheu papel. Computador escolheu ${movimentoComputador}. ${resultado}`);
+    ">Papel</button>
+
+    <button onclick="
+      const numeroAleatorio = Math.random();
+
+      let movimentoComputador = '';
+
+      if (numeroAleatorio >= 0 && numeroAleatorio < 1 / 3) {
+        movimentoComputador = 'pedra';
+      } else if (numeroAleatorio >= 1 / 3 && numeroAleatorio < 2 / 3) {
+        movimentoComputador = 'papel';
+      } else if (numeroAleatorio >= 2 / 3 && numeroAleatorio < 1) {
+        movimentoComputador = 'tesoura';
+      }
+
+      let resultado = '';
+
+      if (movimentoComputador === 'pedra') {
+        resultado = 'Você perdeu.';
+      } else if (movimentoComputador === 'papel') {
+        resultado = 'Você ganhou.';
+      } else if (movimentoComputador === 'tesoura') {
+        resultado = 'Empate.';
+      }
+
+      alert(`Você escolheu tesoura. Computador escolheu ${movimentoComputador}. ${resultado}`);
+    ">Tesoura</button>
+
+    <script>
+      
+    </script>
+  </body>
+</html>

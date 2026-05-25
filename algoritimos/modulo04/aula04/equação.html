@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de equações de segundo grau</title>
+</head>
+<body>
+    <script>
+
+        var a = +prompt("Digite o primeiro numero: ")
+        var b = +prompt("Digite o segundo numero: ")
+        var c = +prompt("Digite o terceiro numero: ")
+
+        function delta_calculo(a, b, c)
+        {
+            return (b*b) - (4*a)*c
+        }
+        
+        function bhaskara_positivo(b, delta, a)
+        {
+            return (-b + Math.sqrt(delta)) / (2*a)
+        }
+
+        function bhaskara_negativo(b, delta, a)
+        {
+            return (-b - Math.sqrt(delta)) / (2*a)
+        }
+
+        var delta = delta_calculo(a, b, c)
+        
+        document.write(`O valor de delta è: ${delta}<br>`)
+
+        if(delta < 0)
+        {
+            document.write("Não possui raízes reais.<br>")
+        }
+        else if(delta == 0)
+        {
+            var z = (-b + Math.sqrt(delta)) / (2*a)
+            document.write(`Possui apenas uma raiz: ${z}<br>`)
+        }
+        else
+        {
+            var x = bhaskara_positivo(b, delta, a)
+            document.write(`O valor de bhaskara positivo é: ${x}<br>`)
+
+            var y = bhaskara_negativo(b, delta, a)
+            document.write(`O valor de bhaskara negativo é: ${y}<br>`)
+        }
+    </script>
+</body>
+<html>         

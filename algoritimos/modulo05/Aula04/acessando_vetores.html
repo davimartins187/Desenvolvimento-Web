@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessando vetores</title>
+</head>
+<body>    
+    <script>
+
+        var numeros = new Array (10)
+        numeros [0] = 0
+        numeros [1] = 1
+
+        for (var contador = 2; contador < 10; contador++)
+        {
+            numeros[contador] = numeros[contador -1] + numeros[contador-2]
+            document.write(`Na posição ${contador}, temos o valor ${numeros[contador]}<br>`)
+        }
+    </script>
+</body>
+</html>

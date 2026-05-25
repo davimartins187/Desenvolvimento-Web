@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funções Factory</title>
+</head>
+<body>
+    <script>
+
+        const ProdutoFactory = function ( nome, preco ){
+            
+            return{
+                nome,
+                preco,
+                recuperarAvaliacoes(){
+                    console.log(`Avaliações para o produto ${this.nome}`)
+                }
+            }
+        }
+
+        const produto = ProdutoFactory("nootBook", 1200)
+
+        console.log(produto)
+        produto.recuperarAvaliacoes()
+    </script>
+</body>
+</html>

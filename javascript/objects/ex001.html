@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pedra Papel Tesoura</title>
+  </head>
+  <body>
+    <p>Pedra Papel Tesoura</p>
+    <button onclick="
+      jogar('pedra');
+    ">Pedra</button>
+
+    <button onclick="
+      jogar('papel');
+    ">Papel</button>
+
+    <button onclick="
+      jogar('tesoura');
+    ">Tesoura</button>
+
+    <button onclick="limpar()">
+        Limpar placar
+    </button>
+
+    <script>
+
+        let placar = localStorage.getItem('placar') ? 
+            JSON.parse(localStorage.getItem('placar')) : 
+            {
+                vitorias: 0,
+                derrotas: 0,
+                empates: 0
+            };
+
+        function limpar(){
+            placar.vitorias = 0
+            placar.derrotas = 0
+            placar.empates = 0
+
+            localStorage.setItem('placar', JSON.stringify(placar));
+            alert("Seu placar foi limpo")
+        }
+
+        function jogar(movimentoJogador) {
+            const movimentoComputador = escolherMovimentoComputador();
+
+            let resultado = "";
+
+            if(
+                (movimentoJogador === `pedra` && movimentoComputador === `tesoura`)
+                || (movimentoJogador === `tesoura` && movimentoComputador === `papel`) 
+                || (movimentoJogador === `papel` && movimentoComputador === `pedra`))
+            {
+                resultado = "Você ganhou"
+                placar.vitorias += 1
+
+                alert(`Você escolheu ${movimentoJogador}. Computador escolheu ${movimentoComputador}. ${resultado}
+                vitorias: ${placar.vitorias}, derrotas: ${placar.derrotas}, empates: ${placar.empates}`);
+            }
+
+            else if(
+                (movimentoJogador === `pedra` && movimentoComputador === `papel`)||
+                (movimentoJogador === `tesoura` && movimentoComputador === `pedra`)||
+                (movimentoJogador === `papel` && movimentoComputador === `tesoura`))
+            {
+                resultado = "Você perdeu"
+                placar.derrotas += 1
+
+                alert(`Você escolheu ${movimentoJogador}. Computador escolheu ${movimentoComputador}. ${resultado} vitorias: ${placar.vitorias}, derrotas: ${placar.derrotas}, empates: ${placar.empates}`);
+            }
+
+            else{
+                resultado = "Deu empate"
+                placar.empates += 1
+
+                alert(`Você escolheu ${movimentoJogador}. Computador escolheu ${movimentoComputador}. ${resultado}
+                vitorias: ${placar.vitorias}, derrotas: ${placar.derrotas}, empates: ${placar.empates}`);
+            }
+
+            localStorage.setItem('placar', JSON.stringify(placar))
+        };
+
+        function escolherMovimentoComputador() {
+            const numeroAleatorio = Math.random();
+
+            let movimentoComputador = '';
+
+            if (numeroAleatorio >= 0 && numeroAleatorio < 1 / 3) {
+              movimentoComputador = 'pedra';
+            } else if (numeroAleatorio >= 1 / 3 && numeroAleatorio < 2 / 3) {
+              movimentoComputador = 'papel';
+            } else if (numeroAleatorio >= 2 / 3 && numeroAleatorio < 1) {
+              movimentoComputador = 'tesoura';
+            }
+
+            return movimentoComputador;
+        }
+    </script>
+  </body>
+</html>

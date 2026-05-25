@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara ou Coroa</title>
+</head>
+<body>
+    
+    <button onclick="palpiteHumano('cara')">
+        cara
+    </button>
+    <button onclick="palpiteHumano('coroa')">
+        coroa
+    </button>
+
+    <script>
+
+        let placar = localStorage.getItem('placar')?
+        JSON.parse(localStorage.getItem('placar')) :
+         {
+            vitorias: 0,
+            perdas: 0
+        }
+
+        function palpiteComputador()
+        {
+            let palpiteComputador = Math.random()
+
+            if(palpiteComputador < 0.5)
+            {
+                return "cara"
+            }
+            else{
+                return "coroa"
+            }
+        }
+
+        function palpiteHumano(escolha_jogador)
+        {
+            let escolha_computador = palpiteComputador()
+            let resultado = ""
+
+            if(escolha_computador === escolha_jogador)
+            {
+                resultado = "ganhou"
+                placar.vitorias += 1
+            }
+            else if(escolha_computador !== escolha_jogador)
+            {
+                resultado = "perdeu"
+                placar.perdas += 1
+            }
+
+            window.alert(`Você escolheu ${escolha_jogador} e o computador escolheu ${escolha_computador} então você ${resultado}
+                    Você ganhou: ${placar.vitorias} e perdeu : ${placar.perdas}`)
+
+            localStorage.setItem(`placar`, JSON.stringify(placar))
+        }
+    </script>
+</body>
+</html>
