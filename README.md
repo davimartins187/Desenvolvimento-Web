@@ -69,7 +69,6 @@ Este repositório foi criado para:
 # 📂 Estrutura do Repositório
 
 ```txt
- ┣ 📂 HTML-css
  ┣ 📂 JavaScript
  ┣ 📂 TypeScript
  ┣ 📂 React
