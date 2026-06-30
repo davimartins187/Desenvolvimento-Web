@@ -33,7 +33,7 @@ Aqui documento toda a minha evolução no desenvolvimento web e full stack, comp
 ## ⚙️ Back-end
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,java,mysql" />
+  <img src="https://skillicons.dev/icons?i=java,mysql" />
 </p>
 
 - Node.js
@@ -72,7 +72,6 @@ Este repositório foi criado para:
  ┣ 📂 JavaScript
  ┣ 📂 TypeScript
  ┣ 📂 React
- ┣ 📂 NodeJS
  ┣ 📂 Java
  ┣ 📂 MySQL
  ┣ 📂 Docker
