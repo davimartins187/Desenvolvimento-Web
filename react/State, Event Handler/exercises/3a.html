@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My click website</title>
+  </head>
+  <body>
+    <div class="js-container"></div>
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel">
+
+    const ButtonAddNumber = ({ numberClicks, setNumberClicks }) => {
+
+        function updateClicks(){
+            setNumberClicks(
+                numberClicks + 1
+            );
+        };
+
+        return(
+            <>
+                <button 
+                    onClick={updateClicks}
+                    value={setNumberClicks}
+                >
+                    { numberClicks == 1 ? 
+                        `Clicado ${numberClicks} vez` :
+                        `Clicado ${numberClicks} vezes`
+                    }
+                </button>
+            </>
+        );
+    };
+
+    const ResetCountButton = ({ numberClicks ,setNumberClicks }) => {
+        
+        function resetCount () {
+            setNumberClicks(
+                numberClicks = 0
+            )
+        }
+        
+        return(
+            <>
+                <button 
+                    onClick={resetCount}
+                >
+                    Reset count
+                </button>
+            </>
+        );
+    };
+
+    function App (){
+
+        const [numberClicks, setNumberClicks] = React.useState(0)
+
+        return(
+            <>
+                <ButtonAddNumber 
+                    numberClicks={numberClicks}
+                    setNumberClicks={setNumberClicks}
+                />
+                <ButtonAddNumber 
+                    numberClicks={numberClicks}
+                    setNumberClicks={setNumberClicks}
+                />
+
+                <ResetCountButton 
+                    numberClicks={numberClicks}
+                    setNumberClicks={setNumberClicks}
+                />
+            </>
+        );
+    };
+
+      const container = document.querySelector('.js-container');
+      ReactDOM.createRoot(container).render(<App />);
+      
+    </script>
+  </body>
+</html>
