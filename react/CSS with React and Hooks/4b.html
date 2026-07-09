@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My website</title>
+  </head>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            height: 100vh;
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        .Container{
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            padding: 10px 30px 30px 30px;
+            border: 1px solid rgba(0, 0, 0, 0.301);
+            border-radius: 16px;
+
+            position: absolute;
+            left: 50%;
+            bottom: 50%;
+            transform: translateX(-50%) translateY(50%);
+        }
+
+        .Container h1{
+            margin-bottom: 30px;
+        }
+
+        .Container input{
+            height: 30px;
+            min-width: 100%;
+            text-indent: 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.616);
+        }
+
+        .Container .inputs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .Container .inputs div input{
+            margin-bottom: 10px;
+        }
+
+        .buttonShow{
+            padding: 2px;
+            width: 80px;
+            margin-bottom: 10px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.178);
+        }
+
+        .buttons{
+            margin-top: 10px;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .buttons button{
+            width: 120px;
+            background-color: rgb( 0, 123, 255 );
+            color: white;
+            font-weight: 700;
+            border: none;
+            border-radius: 12px;
+            padding: 8px;
+        }
+
+        .buttons button:hover{
+            transform: translateY(-3px) scale(1.04);
+            transition: 0.2s;
+        }
+
+    </style>
+  <body>
+    <div class="js-container"></div>
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel">
+
+    function App (){
+
+        const [ showPassword, setShowPassword ] = React.useState(true)
+
+        return(
+            <div className="Container">
+                <h1>Hello, welcome to my website</h1>
+
+                
+                    <div className="inputs">
+                        <input
+                            type="email"
+                            placeholder="Email"
+                        />
+                        
+                        <div>
+                            <input
+                                type={
+                                    showPassword === false ?
+                                    "text" :
+                                    "password"
+                                }
+                                placeholder="Password"
+                            />
+                            <button
+                                onClick={() => {
+                                    showPassword === false ?
+                                    setShowPassword (true) :
+                                    setShowPassword (false)
+                                }}
+                                className="buttonShow"
+                            >
+                                Show
+                            </button>
+                        </div>
+                    </div>
+
+                <div className="buttons">
+                    <button>Login</button>
+                    <button>Sign up</button>
+                </div>
+            </div>
+        )
+    };
+
+      const container = document.querySelector('.js-container');
+      ReactDOM.createRoot(container).render(<App />);
+      
+    </script>
+  </body>
+</html>
