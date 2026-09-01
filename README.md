@@ -13,6 +13,17 @@ Sou formado no curso técnico em Desenvolvimento de Sistemas pela **ETEC Lauro G
 
 ---
 
+## 📌 Projetos em destaque
+ 
+### [Crashware](https://github.com/CrashWare-TCC/TCC_CrashWare)
+Projeto final do curso técnico na ETEC. Site completo desenvolvido do zero — planejamento, UI e implementação — com HTML, CSS, JavaScript, React e Python, aplicando boas práticas de integração front-end/back-end, layout responsivo e versionamento com Git.
+ 
+### [react-chatbot](https://github.com/davimartins187/react-chatbot)
+Chatbot simples construído em React para praticar componentes, gerenciamento de estado e operações assíncronas.
+ 
+---
+
+
 # 📚 Tecnologias e Habilidades
 
 ## 🎨 Front-end
