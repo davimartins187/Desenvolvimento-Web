@@ -1,4 +1,4 @@
-package EstruturaCondicionais;
+package Introducao.EstruturaCondicionais;
 
 public class Aula05EstruturasCondicionais03 {
     public static void main(String[] args){
