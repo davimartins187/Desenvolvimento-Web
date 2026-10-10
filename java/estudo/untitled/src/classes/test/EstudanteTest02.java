@@ -1,6 +1,6 @@
-package JavaPOO.test;
+package classes.test;
 
-import JavaPOO.dominio.Estudante;
+import classes.dominio.Estudante;
 
 public class EstudanteTest02 {
     static void main(String[] args) {
