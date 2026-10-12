@@ -10,19 +10,19 @@ public class FuncionarioTest01 {
 
         Funcionario[] funcionarios = {funcionario01, funcionario02, funcionario03};
 
-        funcionario01.nome = "Davi";
-        funcionario02.nome = "Gato";
-        funcionario03.nome = "Charlie Brown Junior";
+        funcionario01.setNome("Davi");
+        funcionario02.setNome("Gato");
+        funcionario03.setNome("Charlie Brown Junior");
 
-        funcionario01.idade = 17;
-        funcionario02.idade = 6;
-        funcionario03.idade = 42;
+        funcionario01.setIdade(17);
+        funcionario02.setIdade(6);
+        funcionario03.setIdade(42);
 
-        funcionario01.salario= 100.00;
-        funcionario02.salario= 200.00;
-        funcionario03.salario= 300.00;
+        funcionario01.setSalario(100.00);
+        funcionario02.setSalario(200.00);
+        funcionario03.setSalario(300.00);
 
-        double[] salarios = {funcionario01.salario, funcionario02.salario, funcionario03.salario};
+        double[] salarios = {funcionario01.getSalario(), funcionario02.getSalario(), funcionario03.getSalario()};
 
         for (int i =  0; i < funcionarios.length; i++){
             funcionarios[i].imprimirDados();
