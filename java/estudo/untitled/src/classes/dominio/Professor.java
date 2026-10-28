@@ -1,4 +1,4 @@
-package JavaPOO.dominio;
+package classes.dominio;
 
 public class Professor{
     public String nome;
