@@ -30,9 +30,16 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+        <!-- Dependência base do Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- ADICIONADO: Dependência para criar aplicações Web/REST -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
