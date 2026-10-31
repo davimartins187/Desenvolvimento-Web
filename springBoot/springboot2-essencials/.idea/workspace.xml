@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51d2691f-bc05-41dd-ac34-190eaab0175b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/springBoot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2-essencials.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2/applicationStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2/controller/AnimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/SpringBootEssentialsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/controller/ProdutoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/database/model/ProdutoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/dto/ProdutoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/excepcion/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/excepcion/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/handler/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/java/br/com/souza/spring_boot_essentials/service/ProdutoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_essentials/src/test/java/br/com/souza/spring_boot_essentials/SpringBootEssentialsApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;davimartins187&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davimartins187/Desenvolvimento-Web.git&quot;,
+    &quot;accountId&quot;: &quot;52eba75d-131b-4aa4-9573-56457705a1d0&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\.m2\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LQpebHyQI3AoqxsvuWKGXCqfLj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.Unknown [package].executor": "Run",
+    "Maven.springboot2-essencials [clean].executor": "Run",
+    "Maven.springboot2-essencials [compile].executor": "Run",
+    "Maven.springboot2-essencials [install].executor": "Run",
+    "Maven.springboot2-essencials [package].executor": "Run",
+    "Maven.springboot2-essencials [validate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.applicationStart.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51d2691f-bc05-41dd-ac34-190eaab0175b" name="Changes" comment="" />
+      <created>1793396242675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793396242675</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

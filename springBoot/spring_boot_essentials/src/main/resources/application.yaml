@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: spring_boot_essentials
-
-server:
-  port: 8082
