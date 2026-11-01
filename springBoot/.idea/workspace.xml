@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed71c2c1-40ff-4e2f-a23c-ec5252427ea4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/java/com/example/mavendemo/controller/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/java/com/example/mavendemo/controller/AlunoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/java/com/example/mavendemo/controller/AlunoID.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/java/com/example/mavendemo/controller/MavenDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/test/java/com/example/mavendemo/HelloControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/test/java/com/example/mavendemo/MavenDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springBoot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2-essentials/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/Controller/AnimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/Service/AnimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/Springboot2EssentialsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/domain/Anime$AnimeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/domain/Anime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/repository/AnimeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/requests/AnimePostRquestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/requests/AnimePutRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/classes/academy/devdojo/springboot2essentials/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/springboot2-essentials-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/springboot2-essentials-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/2026-10-31T10-13-08_814-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/2026-10-31T10-15-22_535-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/2026-10-31T10-16-58_365-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/2026-10-31T10-18-18_750-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/TEST-academy.devdojo.springboot2essentials.Springboot2EssentialsApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/surefire-reports/academy.devdojo.springboot2essentials.Springboot2EssentialsApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/target/test-classes/academy/devdojo/springboot2essentials/Springboot2EssentialsApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +40,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "davimartins187"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;davimartins187&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/davimartins187/Desenvolvimento-Web.git",
-    "accountId": "52eba75d-131b-4aa4-9573-56457705a1d0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davimartins187/Desenvolvimento-Web.git&quot;,
+    &quot;accountId&quot;: &quot;2b7e60b4-e0d9-4a91-8279-9bcb1b4cea7b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LOfOV7XV3egmJGnAUJCgZ5Qovs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,13 +70,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.springboot2-essentials [clean].executor": "Run",
+    "Maven.springboot2-essentials [compile].executor": "Run",
+    "Maven.springboot2-essentials [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aluno/Documents/GitHub/Desenvolvimento-Web/springBoot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -97,5 +112,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
