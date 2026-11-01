@@ -1,4 +1,4 @@
-# 🚀 Estudos e Projetos de Desenvolvimento Web
+#  Estudos e Projetos de Desenvolvimento Web
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+%7C+Spring+Boot;Back-end+%7C+Full+Stack;Desenvolvimento+de+Software" alt="Animação de apresentação" />
@@ -71,4 +71,63 @@ Também possuo conhecimentos em tecnologias de Front-end, como React e TypeScrip
 
 ---
 
-## 📂 Organização do
+## 📂 Organização do repositório
+
+```text
+📦 Estudos e Projetos de Desenvolvimento Web
+ ┣ 📂 algoritmos
+ ┣ 📂 Java
+ ┣ 📂 javascript
+ ┣ 📂 typescript
+ ┣ 📂 reagir
+ ┣ 📂 SpringBoot
+ ┣ 📜 .gitattributes
+ ┣ 📜 .gitignore
+ ┣ 📜 LICENÇA
+ ┗ 📜 README.md
+```
+
+A estrutura reúne conteúdos de diferentes áreas do desenvolvimento Web e pode evoluir conforme novos projetos forem adicionados.
+
+---
+
+## 🎓 Formação
+
+- **Técnico em Desenvolvimento de Sistemas** — ETEC Lauro Gomes (concluído).
+
+---
+
+## 🎯 Objetivos profissionais
+
+Interesse em oportunidades nas seguintes áreas:
+
+- 💻 **Desenvolvedor Back-end Júnior**
+- 🚀 **Desenvolvedor Full Stack Júnior**
+- 🌐 **Desenvolvedor Front-end Júnior**
+
+### Principais áreas de atuação
+
+- Desenvolvimento back-end com Java e Spring Boot.
+- Construção e integração de APIs REST.
+- Integração com bancos de dados relacionais e NoSQL.
+- Desenvolvimento de interfaces com React e TypeScript.
+- Integração entre aplicações Front-end e Back-end.
+
+---
+
+## 📫 Contato
+
+<p align="center">
+  <a href="https://github.com/davimartins187">
+    <img src="https://img.shields.io/badge/GitHub-davimartins187-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub de Davi" />
+  </a>
+  <a href="https://www.linkedin.com/in/davisouzamartins/">
+    <img src="https://img.shields.io/badge/LinkedIn-Perfil_Profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn de Davi" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  💻 <strong>Desenvolvimento, tecnologia e evolução contínua.</strong>
+</p>
