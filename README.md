@@ -1,108 +1,100 @@
-# 🚀 Minha Evolução em Programação Web
+# 🚀 Estudos e Projetos de Desenvolvimento Web
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=ff0000&size=30&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+meu+repositório!;Front-end+Developer+Journey;Estudando+e+evoluindo+todos+os+dias+💻">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Back-end+Developer+in+Progress;Java+%7C+Spring+Boot+%7C+SQL;Aprendendo%2C+praticando+e+evoluindo!" alt="Animação de apresentação" />
+</p>
+
+<p align="center">
+  Repositório dedicado aos meus estudos, exercícios e projetos de desenvolvimento de software, com foco atual em **Back-end Java** e fundamentos de desenvolvimento Web.
 </p>
 
 ---
 
-## 📖 Sobre o Repositório
+##  Sobre o repositório
 
-Bem-vindo ao meu repositório de estudos e prática!
-Sou formado no curso técnico em Desenvolvimento de Sistemas pela **ETEC Lauro Gomes**, e aqui documento exercícios de lógica de programação e projetos de front-end desenvolvidos durante minha jornada, incluindo o que venho praticando no **PROA Transforme-se (Senac)**.
+Este repositório centraliza minha jornada de aprendizado em programação, reunindo exercícios práticos, estudos de tecnologias e projetos desenvolvidos ao longo da minha formação.
 
----
+Atualmente, meu foco está no desenvolvimento back-end com **Java e Spring Boot**, explorando APIs REST, bancos de dados relacionais e boas práticas de desenvolvimento.
 
-## 📌 Projetos em destaque
- 
-### [Crashware](https://github.com/CrashWare-TCC/TCC_CrashWare)
-Projeto final do curso técnico na ETEC. Site completo desenvolvido do zero — planejamento, UI e implementação — com HTML, CSS, JavaScript, React e Python, aplicando boas práticas de integração front-end/back-end, layout responsivo e versionamento com Git.
- 
-### [react-chatbot](https://github.com/davimartins187/react-chatbot)
-Chatbot simples construído em React para praticar componentes, gerenciamento de estado e operações assíncronas.
- 
----
+Também estudo tecnologias de front-end, como React e JavaScript, buscando ampliar meus conhecimentos em desenvolvimento Full Stack.
 
 
-# 📚 Tecnologias e Habilidades
+ Tecnologias e ferramentas
 
-## 🎨 Front-end
+ Back-end
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react" />
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb" alt="Java, Spring, MySQL e MongoDB" />
 </p>
 
-- HTML5
-- CSS3
-- JavaScript
-- React
+Java — programação orientada a objetos.
 
-## 🐍 Python
+Spring Boot — desenvolvimento de aplicações back-end.
+
+APIs REST — criação e integração de serviços.
+
+MySQL — banco de dados relacional.
+
+MongoDB — banco de dados NoSQL.
+
+ Front-end e Design
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py" />
+  <img src="https://skillicons.dev/icons?i=react,ts,figma" alt="React, TypeScript e Figma" />
 </p>
 
-- Exercícios práticos e lógica de programação em Python
+React — desenvolvimento de interfaces.
 
-## 🧠 Algoritmos e Lógica
+TypeScript — JavaScript com tipagem estática.
 
-- Exercícios de estruturas condicionais, laços de repetição e lógica de programação
+Figma — criação e prototipação de interfaces.
 
-## 🛠️ Ferramentas
+ Ferramentas
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,idea,vscode,postman" alt="Git, GitHub, Docker, IntelliJ IDEA, VS Code e Postman" />
 </p>
 
-- Git & GitHub
+Git e GitHub — versionamento e gerenciamento de código.
 
----
+Postman — testes e validação de APIs.
 
-# 🎓 Formação
+Docker — conteinerização de aplicações.
 
-- **Técnico em Desenvolvimento de Sistemas** — ETEC Lauro Gomes (concluído)
-- **PROA Transforme-se — Front-end** — Senac (em andamento)
+IntelliJ IDEA — ambiente de desenvolvimento Java.
 
----
+Visual Studio Code — editor de código.
 
-# 🎯 Objetivo
+As tecnologias estão relacionadas aos meus estudos e objetivos de desenvolvimento. O nível de experiência pode variar entre elas.
 
-Este repositório foi criado para:
+📂 Organização do repositório
 
-✅ Mostrar minha evolução em front-end e lógica de programação
-✅ Praticar programação diariamente
-✅ Construir projetos reais
-✅ Organizar meus estudos
-✅ Criar um portfólio público
-
----
-
-# 📂 Estrutura do Repositório
-
-```txt
+📦 Estudos e Projetos de Desenvolvimento Web
  ┣ 📂 algoritmos
+ ┣ 📂 Java
  ┣ 📂 javascript
- ┣ 📂 python
- ┣ 📂 react
+ ┣ 📂 reagir
+ ┣ 📂 SpringBoot
+ ┣ 📜 .gitattributes
+ ┣ 📜 .gitignore
+ ┣ 📜 LICENÇA
  ┗ 📜 README.md
-```
 
----
+🎓 Formação
 
-# 📬 Contato
+Técnico em Desenvolvimento de Sistemas — ETEC Lauro Gomes (concluído).
 
-<p align="left">
-  <a href="https://github.com/davimartins187">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/davisouzamartins/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-</p>
+##  Objetivos profissionais
 
----
+Interesse em oportunidades como:
 
-<p align="center">
- ⭐ Obrigado por visitar meu repositório!
-</p>
+-  Desenvolvedor Back-end Júnior
+-  Desenvolvedor Full Stack Júnior
+-  Desenvolvedor Front-end Júnior
+
+**Principais áreas de atuação:**
+- Desenvolvimento back-end com Java e Spring Boot.
+- Construção e integração de APIs REST.
+- Manipulação de bancos de dados relacionais e NoSQL.
+- Desenvolvimento de interfaces com React e TypeScript.
+- Integração entre aplicações front-end e back-end.
