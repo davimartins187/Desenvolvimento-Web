@@ -1,4 +1,4 @@
-#  Estudos e Projetos de Desenvolvimento Web
+# Estudos e Projetos de Desenvolvimento Web
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+%7C+Spring+Boot;Back-end+%7C+Full+Stack;Desenvolvimento+de+Software" alt="Animação de apresentação" />
@@ -19,33 +19,33 @@
 
 ---
 
-## 📌 Sobre o repositório
+## Sobre o repositório
 
-Este repositório centraliza meus estudos, exercícios e projetos de desenvolvimento de software, reunindo práticas de programação e aplicações desenvolvidas ao longo da minha trajetória profissional e acadêmica.
+Este repositório reúne meus estudos, exercícios e projetos de desenvolvimento de software, incluindo práticas de programação e aplicações desenvolvidas ao longo da minha trajetória acadêmica e profissional.
 
-Meu foco principal está no desenvolvimento **Back-end com Java e Spring Boot**, incluindo a construção de APIs REST, integração com bancos de dados relacionais e NoSQL e organização de aplicações.
+Meu foco principal está no desenvolvimento **Back-end com Java e Spring Boot**, abrangendo a criação de APIs REST, integração com bancos de dados relacionais e NoSQL e aplicação de boas práticas de desenvolvimento.
 
 Também possuo conhecimentos em tecnologias de Front-end, como React e TypeScript, que complementam minha atuação no desenvolvimento Web.
 
 ---
 
-## 🛠️ Tecnologias e ferramentas
+## Tecnologias e ferramentas
 
-<h2 align="center">⚙️ Back-end</h2>
+<h2 align="center">Back-end</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb" alt="Java, Spring, MySQL e MongoDB" />
 </p>
 
 - **Java:** programação orientada a objetos e desenvolvimento de aplicações.
-- **Spring Boot:** desenvolvimento de aplicações back-end.
+- **Spring Boot:** desenvolvimento de aplicações Back-end.
 - **APIs REST:** criação e integração de serviços.
 - **MySQL:** gerenciamento de bancos de dados relacionais.
 - **MongoDB:** gerenciamento de bancos de dados NoSQL.
 
 ---
 
-<h2 align="center">🎨 Front-end e Design</h2>
+<h2 align="center">Front-end e Design</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,figma" alt="React, TypeScript e Figma" />
@@ -57,7 +57,7 @@ Também possuo conhecimentos em tecnologias de Front-end, como React e TypeScrip
 
 ---
 
-<h2 align="center">🔧 Ferramentas</h2>
+<h2 align="center">Ferramentas</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,docker,idea,vscode,postman" alt="Git, GitHub, Docker, IntelliJ IDEA, VS Code e Postman" />
@@ -71,43 +71,45 @@ Também possuo conhecimentos em tecnologias de Front-end, como React e TypeScrip
 
 ---
 
-## 📂 Organização do repositório
+## Organização do repositório
 
 ```text
-📦 Estudos e Projetos de Desenvolvimento Web
- ┣ 📂 algoritmos
- ┣ 📂 Java
- ┣ 📂 javascript
- ┣ 📂 typescript
- ┣ 📂 reagir
- ┣ 📂 SpringBoot
- ┣ 📜 .gitattributes
- ┣ 📜 .gitignore
- ┣ 📜 LICENÇA
- ┗ 📜 README.md
+Estudos e Projetos de Desenvolvimento Web
+|
+|-- algoritmos/
+|-- Java/
+|-- javascript/
+|-- typescript/
+|-- reagir/
+|-- SpringBoot/
+|
+|-- .gitattributes
+|-- .gitignore
+|-- LICENÇA
+|-- README.md
 ```
 
-A estrutura reúne conteúdos de diferentes áreas do desenvolvimento Web e pode evoluir conforme novos projetos forem adicionados.
+O repositório está organizado por tecnologias e áreas de desenvolvimento, facilitando a navegação entre exercícios, estudos e projetos.
 
 ---
 
-## 🎓 Formação
+## Formação
 
 - **Técnico em Desenvolvimento de Sistemas** — ETEC Lauro Gomes (concluído).
 
 ---
 
-## 🎯 Objetivos profissionais
+## Objetivos profissionais
 
 Interesse em oportunidades nas seguintes áreas:
 
-- 💻 **Desenvolvedor Back-end Júnior**
-- 🚀 **Desenvolvedor Full Stack Júnior**
-- 🌐 **Desenvolvedor Front-end Júnior**
+- **Desenvolvedor Back-end Júnior**
+- **Desenvolvedor Full Stack Júnior**
+- **Desenvolvedor Front-end Júnior**
 
 ### Principais áreas de atuação
 
-- Desenvolvimento back-end com Java e Spring Boot.
+- Desenvolvimento Back-end com Java e Spring Boot.
 - Construção e integração de APIs REST.
 - Integração com bancos de dados relacionais e NoSQL.
 - Desenvolvimento de interfaces com React e TypeScript.
@@ -115,7 +117,7 @@ Interesse em oportunidades nas seguintes áreas:
 
 ---
 
-## 📫 Contato
+## Contato
 
 <p align="center">
   <a href="https://github.com/davimartins187">
@@ -129,5 +131,5 @@ Interesse em oportunidades nas seguintes áreas:
 ---
 
 <p align="center">
-  💻 <strong>Desenvolvimento, tecnologia e evolução contínua.</strong>
+  <strong>Desenvolvimento, tecnologia e evolução contínua.</strong>
 </p>
