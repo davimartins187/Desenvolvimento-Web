@@ -117,19 +117,6 @@ Interesse em oportunidades nas seguintes áreas:
 
 ---
 
-## Contato
-
-<p align="center">
-  <a href="https://github.com/davimartins187">
-    <img src="https://img.shields.io/badge/GitHub-davimartins187-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub de Davi" />
-  </a>
-  <a href="https://www.linkedin.com/in/davisouzamartins/">
-    <img src="https://img.shields.io/badge/LinkedIn-Perfil_Profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn de Davi" />
-  </a>
-</p>
-
----
-
 <p align="center">
   <strong>Desenvolvimento, tecnologia e evolução contínua.</strong>
 </p>
