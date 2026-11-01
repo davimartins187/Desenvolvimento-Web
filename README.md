@@ -19,7 +19,7 @@
 
 ---
 
-## Sobre o repositório
+## Sobre o Repositório
 
 Este repositório reúne meus estudos, exercícios e projetos de desenvolvimento de software, incluindo práticas de programação e aplicações desenvolvidas ao longo da minha trajetória acadêmica e profissional.
 
