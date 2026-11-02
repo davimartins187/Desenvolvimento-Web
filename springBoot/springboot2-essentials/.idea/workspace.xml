@@ -5,45 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55bf6e63-474a-444a-8cbd-5e9da3e33fbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/Entity/Manga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/MangaManagerApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/controller/MangaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/database/MangaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/dto/MangaPostRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/dto/MangaPutRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/servive/MangaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Manga Manager API/src/test/java/souza/mangamanagerapi/MangaManagerApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Controller/AnimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Service/AnimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Springboot2EssentialsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/repository/AnimeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/requests/AnimePostRquestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/requests/AnimePutRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/academy/devdojo/springboot2essentials/Springboot2EssentialsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot2-essencials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot2-essencials/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/springBoot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/Entity/Manga.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/MangaManagerApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/controller/MangaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/database/MangaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/dto/MangaPostRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/dto/MangaPutRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/java/souza/mangamanagerapi/servive/MangaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/src/test/java/souza/mangamanagerapi/MangaManagerApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/Entity/Manga$MangaBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/Entity/Manga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/MangaManagerApiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/controller/MangaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/database/MangaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/dto/MangaPostRequestBody$MangaPostRequestBodyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/dto/MangaPostRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/dto/MangaPutRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/classes/souza/mangamanagerapi/servive/MangaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manga Manager API/target/test-classes/souza/mangamanagerapi/MangaManagerApiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Controller/AnimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Service/AnimeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/Springboot2EssentialsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/domain/Anime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/repository/AnimeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/requests/AnimePostRquestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/requests/AnimePutRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/devdojo/springboot2essentials/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/academy/devdojo/springboot2essentials/Springboot2EssentialsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/Controller/AnimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/Service/AnimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/Springboot2EssentialsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/domain/Anime$AnimeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/domain/Anime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/repository/AnimeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/requests/AnimePostRquestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/requests/AnimePutRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/academy/devdojo/springboot2essentials/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +162,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuário\Desktop\Estudos\Desenvolvimento-Web\springBoot\springboot2-essentials" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <setting name="addClasspath" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
